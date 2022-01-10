@@ -134,7 +134,7 @@ class Module
         return $value;
     }
 
-    protected function beforeGetJSON($request = null)
+    protected function beforeGetJSON(array $request)
     {
     }
 
